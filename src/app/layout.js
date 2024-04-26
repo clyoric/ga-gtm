@@ -14,7 +14,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         {children}
-        <!-- Google Tag Manager -->
         <Script strategy="beforeInteractive">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -24,7 +23,6 @@ export default function RootLayout({ children }) {
             })(window,document,'script','dataLayer','GTM-5XJ62RFZ');
           `}
         </Script>
-        <!-- End Google Tag Manager -->
       </body>
     </html>
   );
